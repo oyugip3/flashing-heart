@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="4)/]_!(}ZK]vsQ?J,Gy7" x="0" y="0"><statement name="HANDLER"><block type="playMelody" id="bEL;cQNwl4?:?3laXSZN"><value name="melody"><shadow type="melody_editor" id="{z$s%f{)p?:2F2hB@wP`"><field name="melody">"G A G F F G A B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Y2yort=T+%]/60!$=CfR"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="JpcMQt.hFnVgCUTT:h7L"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_play_note" id="u|-I##RW4?|kwb:LwSqo"><value name="note"><shadow type="device_note" id=")DeyF$Pdk94CiI.8qQ7v"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="LpLPJR7_=0%_JP]1BWbH"><field name="fraction">BeatFraction.Half</field></shadow></value><next><block type="device_show_leds" id="dpdHOMf@4Mo;izu22sun"><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . # . # .
+        `</field><next><block type="device_plot_bar_graph" id="CKS9R:UA*aP+g+lZ?g8c"><value name="value"><shadow type="math_number" id="Yo0I$=].`??%Y,je:fRz"><field name="NUM">8</field></shadow></value><value name="high"><shadow type="math_number" id="s{-Q!U(h*SdYYb]+yc90"><field name="NUM">16</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
